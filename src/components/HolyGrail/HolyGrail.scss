@@ -1,0 +1,65 @@
+.holy-grail-layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  background: var(--card-bg);
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid #334155;
+
+  header,
+  footer {
+    background: #334155;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+  }
+
+  header {
+    border-bottom: 2px solid #1e293b;
+  }
+
+  footer {
+    border-top: 2px solid #1e293b;
+  }
+
+  .layout-body {
+    display: flex;
+    flex: 1;
+
+    nav,
+    aside {
+      width: 120px;
+      padding: 1rem;
+      background: #1e293b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.875rem;
+      color: #94a3b8;
+      text-align: center;
+    }
+
+    nav {
+      border-right: 2px solid #0f172a;
+    }
+
+    aside {
+      border-left: 2px solid #0f172a;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      background: #0f172a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--primary-color);
+    }
+  }
+}
