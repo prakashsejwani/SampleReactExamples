@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './UseCycle.scss';
+
 
 export default function useCycle<T>(...values: T[]): [T, () => void] {
   if (values.length === 0) {

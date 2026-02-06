@@ -1,5 +1,5 @@
 import useCounter2 from './use-counter-2';
-import './UseCounter2.scss';
+
 
 export default function UseCounter2Demo() {
     const { count, increment, decrement, reset } = useCounter2(10);

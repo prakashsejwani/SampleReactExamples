@@ -30,6 +30,7 @@ const EXAMPLE_COMPONENTS = [
     { name: 'useCounter2 Hook', Component: Components.UseCounter2 },
     { name: 'useCycle Hook', Component: Components.UseCycle },
     { name: 'useQuery Hook', Component: Components.UseQuery },
+    { name: 'useTimeout Hook', Component: Components.UseTimeout },
 ];
 
 function App() {

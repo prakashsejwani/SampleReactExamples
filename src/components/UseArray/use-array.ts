@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './UseArray.scss';
+
 
 export default function useArray<T>(defaultValue: T[] = []) {
   const [array, setArray] = useState<T[]>(defaultValue);

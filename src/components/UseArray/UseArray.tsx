@@ -1,6 +1,5 @@
-import React from 'react';
 import useArray from './use-array';
-import './UseArray.scss';
+
 
 export default function UseArrayDemo() {
     const { array, push, update, remove, filter, set, clear } = useArray([1, 2, 3]);

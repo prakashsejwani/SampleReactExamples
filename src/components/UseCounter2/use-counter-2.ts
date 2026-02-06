@@ -1,5 +1,5 @@
 import { useCallback, useRef, useState } from 'react';
-import './UseCounter2.scss';
+
 
 export default function useCounter2(initialValue: number = 0) {
   const initialRef = useRef(initialValue);

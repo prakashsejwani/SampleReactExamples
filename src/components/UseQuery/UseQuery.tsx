@@ -1,5 +1,5 @@
 import useQuery from './use-query';
-import './UseQuery.scss';
+
 
 interface User {
     id: number;

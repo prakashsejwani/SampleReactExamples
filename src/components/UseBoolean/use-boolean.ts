@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import './UseBoolean.scss';
+
 
 export default function useBoolean(initialValue: boolean) {
   const [value, setValue] = useState(Boolean(initialValue));

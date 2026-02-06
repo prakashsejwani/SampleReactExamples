@@ -1,5 +1,5 @@
 import useCounter from './use-counter';
-import './UseCounter.scss';
+
 
 export default function UseCounterDemo() {
     const { count, increment, decrement, reset } = useCounter(0);

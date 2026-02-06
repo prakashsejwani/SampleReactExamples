@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './UseQuery.scss';
+
 
 export default function useQuery<T>(url: string) {
   const [data, setData] = useState<T | null>(null);
