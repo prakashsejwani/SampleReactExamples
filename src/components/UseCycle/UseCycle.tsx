@@ -1,5 +1,4 @@
 import useCycle from './use-cycle';
-import './UseCycle.scss';
 
 export default function UseCycleDemo() {
     const [value, cycle] = useCycle('Red', 'Green', 'Blue', 'Yellow');

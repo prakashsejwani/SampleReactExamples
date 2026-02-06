@@ -1,5 +1,4 @@
 import useBoolean from './use-boolean';
-import './UseBoolean.scss';
 
 export default function UseBooleanDemo() {
     const { value, setTrue, setFalse, toggle } = useBoolean(false);
