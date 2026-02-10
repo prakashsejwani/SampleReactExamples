@@ -77,6 +77,7 @@ const EXAMPLE_COMPONENTS = [
     { name: 'useCycle Hook', Component: Components.UseCycle },
     { name: 'useQuery Hook', Component: Components.UseQuery },
     { name: 'useTimeout Hook', Component: Components.UseTimeout },
+    { name: 'Tic Tac Toe', Component: Components.TicTacToe },
 ];
 
 

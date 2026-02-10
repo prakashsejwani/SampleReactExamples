@@ -22,3 +22,4 @@ export { default as UseCounter2 } from './UseCounter2/UseCounter2';
 export { default as UseCycle } from './UseCycle/UseCycle';
 export { default as UseQuery } from './UseQuery/UseQuery';
 export { default as UseTimeout } from './UseTimeout/UseTimeout';
+export { default as TicTacToe } from './TicTacToe/Game';
