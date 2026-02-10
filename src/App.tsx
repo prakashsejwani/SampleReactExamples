@@ -9,6 +9,52 @@ const EXAMPLE_COMPONENTS = [
     { name: 'Digital Clock', Component: Components.DigitalClock },
     { name: 'Holy Grail', Component: Components.HolyGrail },
     {
+        name: 'File Explorer', Component: () => <Components.FileExplorer data={[
+            {
+                id: 1,
+                name: 'README.md',
+            },
+            {
+                id: 2,
+                name: 'Documents',
+                children: [
+                    {
+                        id: 3,
+                        name: 'Word.doc',
+                    },
+                    {
+                        id: 4,
+                        name: 'Powerpoint.ppt',
+                    },
+                ],
+            },
+            {
+                id: 5,
+                name: 'Downloads',
+                children: [
+                    {
+                        id: 6,
+                        name: 'unnamed.txt',
+                    },
+                    {
+                        id: 7,
+                        name: 'Misc',
+                        children: [
+                            {
+                                id: 8,
+                                name: 'foo.txt',
+                            },
+                            {
+                                id: 9,
+                                name: 'bar.txt',
+                            },
+                        ],
+                    },
+                ],
+            },
+        ]} />
+    },
+    {
         name: 'Image Carousel',
         Component: () => <Components.ImageCarousel images={[
             { src: 'https://picsum.photos/id/10/600/400', alt: 'Ocean' },
@@ -32,6 +78,7 @@ const EXAMPLE_COMPONENTS = [
     { name: 'useQuery Hook', Component: Components.UseQuery },
     { name: 'useTimeout Hook', Component: Components.UseTimeout },
 ];
+
 
 function App() {
     const [selectedExample, setSelectedExample] = useState(EXAMPLE_COMPONENTS[0].name);

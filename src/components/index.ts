@@ -12,6 +12,7 @@ export { default as Stopwatch } from './Stopwatch/Stopwatch';
 export { default as Tabs } from './Tabs/Tabs';
 export { default as TodoList } from './TodoList/TodoList';
 export { default as TrafficLight } from './TrafficLight/TrafficLight';
+export { default as FileExplorer } from './FileExplorer/FileExplorer';
 
 // Hook Demos
 export { default as UseArray } from './UseArray/UseArray';
@@ -21,4 +22,3 @@ export { default as UseCounter2 } from './UseCounter2/UseCounter2';
 export { default as UseCycle } from './UseCycle/UseCycle';
 export { default as UseQuery } from './UseQuery/UseQuery';
 export { default as UseTimeout } from './UseTimeout/UseTimeout';
-
