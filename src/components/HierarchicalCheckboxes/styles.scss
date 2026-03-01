@@ -1,0 +1,41 @@
+.hierarchical-checkboxes {
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: sans-serif;
+
+    &__container {
+        padding: 20px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        background-color: #fcfcfc;
+    }
+}
+
+.checkbox-node {
+    margin: 5px 0;
+
+    &__label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        font-size: 16px;
+
+        input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+    }
+
+    &__name {
+        user-select: none;
+    }
+
+    &__children {
+        margin-left: 24px;
+        margin-top: 5px;
+        border-left: 1px solid #ccc;
+        padding-left: 10px;
+    }
+}
