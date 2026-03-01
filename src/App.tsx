@@ -78,8 +78,13 @@ const EXAMPLE_COMPONENTS = [
     { name: 'useQuery Hook', Component: Components.UseQuery },
     { name: 'useTimeout Hook', Component: Components.UseTimeout },
     { name: 'Tic Tac Toe', Component: Components.TicTacToe },
+    { name: 'Transfer List', Component: Components.TransferList },
+    { name: 'Hierarchical Checkboxes', Component: Components.HierarchicalCheckboxes },
+    { name: 'Modal Example', Component: Components.ModalExample },
+    { name: 'Data Table', Component: Components.DataTable },
+    { name: 'useClickAnywhere Hook', Component: Components.UseClickAnywhere },
+    { name: 'useDebounce Hook', Component: Components.UseDebounce },
 ];
-
 
 function App() {
     const [selectedExample, setSelectedExample] = useState(EXAMPLE_COMPONENTS[0].name);

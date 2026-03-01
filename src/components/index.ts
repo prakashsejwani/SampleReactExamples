@@ -22,4 +22,11 @@ export { default as UseCounter2 } from './UseCounter2/UseCounter2';
 export { default as UseCycle } from './UseCycle/UseCycle';
 export { default as UseQuery } from './UseQuery/UseQuery';
 export { default as UseTimeout } from './UseTimeout/UseTimeout';
+export { default as TransferList } from './TransferList/TransferList';
 export { default as TicTacToe } from './TicTacToe/Game';
+export { default as HierarchicalCheckboxes } from './HierarchicalCheckboxes/HierarchicalCheckboxes';
+export { default as ModalExample } from './Modal/ModalExample';
+export { default as DataTable } from './DataTable/DataTable';
+export { default as UseClickAnywhere } from './UseClickAnywhere/UseClickAnywhere';
+export { default as UseDebounce } from './UseDebounce/UseDebounce';
+
