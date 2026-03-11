@@ -85,6 +85,12 @@ const EXAMPLE_COMPONENTS = [
     { name: 'useClickAnywhere Hook', Component: Components.UseClickAnywhere },
     { name: 'useDebounce Hook', Component: Components.UseDebounce },
     { name: 'useSet Hook', Component: Components.UseSet },
+    { name: 'useStep Hook', Component: Components.UseStep },
+    { name: 'useThrottle Hook', Component: Components.UseThrottle },
+    { name: 'Redux + RTK Query', Component: Components.ReduxDemo },
+    { name: 'useWindowSize Hook', Component: Components.UseWindowSize },
+    { name: 'useInputControl Hook', Component: Components.UseInputControl },
+    { name: 'useMediaQuery Hook', Component: Components.UseMediaQuery },
 ];
 
 function App() {
