@@ -191,7 +191,6 @@ export default function HierarchicalCheckboxes() {
 
     return (
         <div className="hierarchical-checkboxes">
-            <h2>Hierarchical Checkboxes</h2>
             <div className="hierarchical-checkboxes__container">
                 {data.map(item => (
                     <CheckboxNode key={item.id} item={item} onToggle={handleToggle} />
