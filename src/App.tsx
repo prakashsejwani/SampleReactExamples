@@ -84,6 +84,7 @@ const EXAMPLE_COMPONENTS = [
     { name: 'Data Table', Component: Components.DataTable },
     { name: 'useClickAnywhere Hook', Component: Components.UseClickAnywhere },
     { name: 'useDebounce Hook', Component: Components.UseDebounce },
+    { name: 'useSet Hook', Component: Components.UseSet },
 ];
 
 function App() {

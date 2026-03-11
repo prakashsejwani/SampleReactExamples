@@ -29,4 +29,4 @@ export { default as ModalExample } from './Modal/ModalExample';
 export { default as DataTable } from './DataTable/DataTable';
 export { default as UseClickAnywhere } from './UseClickAnywhere/UseClickAnywhere';
 export { default as UseDebounce } from './UseDebounce/UseDebounce';
-
+export { default as UseSet } from './UseSet/UseSet';
