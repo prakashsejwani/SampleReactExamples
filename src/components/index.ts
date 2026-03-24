@@ -36,3 +36,5 @@ export { default as ReduxDemo } from './ReduxDemo/ReduxDemo';
 export { default as UseWindowSize } from './UseWindowSize/UseWindowSize';
 export { default as UseInputControl } from './UseInputControl/UseInputControl';
 export { default as UseMediaQuery } from './UseMediaQuery/UseMediaQuery';
+export { default as UseId } from './UseId/UseId';
+export { default as StringAnagram } from './StringAnagram/StringAnagram';

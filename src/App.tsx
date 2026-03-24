@@ -91,6 +91,8 @@ const EXAMPLE_COMPONENTS = [
     { name: 'useWindowSize Hook', Component: Components.UseWindowSize },
     { name: 'useInputControl Hook', Component: Components.UseInputControl },
     { name: 'useMediaQuery Hook', Component: Components.UseMediaQuery },
+    { name: 'useId Hook', Component: Components.UseId },
+    { name: 'String Anagram', Component: Components.StringAnagram },
 ];
 
 function App() {
