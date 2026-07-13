@@ -13,7 +13,7 @@ describe('DigitalClock Component', () => {
     });
 
     it('should render time in 24h format by default', () => {
-        const { container } = render(<DigitalClock />);
+        render(<DigitalClock />);
         // HH: 14, MM: 15, SS: 05
         // Each digit is a .digit component. 
         // We can't easily check the 7-segment display content via text, 

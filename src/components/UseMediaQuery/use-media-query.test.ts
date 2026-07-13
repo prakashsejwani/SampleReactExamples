@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import { renderHook, act } from '@testing-library/react';
+import { renderHook } from '@testing-library/react';
 import { useMediaQuery } from './UseMediaQuery';
 
 describe('useMediaQuery', () => {
@@ -11,7 +11,7 @@ describe('useMediaQuery', () => {
         listeners = [];
         vi.stubGlobal(
             'matchMedia',
-            vi.fn((query: string) => ({
+            vi.fn((_query: string) => ({
                 get matches() {
                     return matches;
                 },
@@ -50,15 +50,13 @@ describe('useMediaQuery', () => {
         const { result } = renderHook(() => useMediaQuery('(max-width: 768px)'));
         expect(result.current).toBe(false);
 
-        act(() => {
-            matches = true;
-            listeners.forEach((listener) => listener({ matches: true } as MediaQueryListEvent));
-        });
+        matches = true;
+        listeners.forEach((listener) => (listener as any)({ matches: true } as MediaQueryListEvent));
         expect(result.current).toBe(true);
     });
 
     it('should subscribe to matchMedia change events', () => {
-        const { result } = renderHook(() => useMediaQuery('(max-width: 768px)'));
+        renderHook(() => useMediaQuery('(max-width: 768px)'));
         expect(listeners.length).toBe(1);
     });
 

@@ -1,4 +1,4 @@
-export function SpinnerIcon({ className }) {
+export function SpinnerIcon({ className }: { className?: string }) {
   return (
     <svg
       className={className}
@@ -31,7 +31,7 @@ export function SpinnerIcon({ className }) {
   );
 }
 
-export function HeartIcon({ className }) {
+export function HeartIcon({ className }: { className?: string }) {
   return (
     <svg
       className={className}
